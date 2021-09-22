@@ -1580,7 +1580,7 @@ impl<T: Config> Pallet<T> {
 	}
 
 	/// Start a referendum
-	fn inject_referendum(
+	pub fn inject_referendum(
 		end: T::BlockNumber,
 		proposal_hash: T::Hash,
 		threshold: VoteThreshold,
