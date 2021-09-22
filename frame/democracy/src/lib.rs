@@ -1349,7 +1349,7 @@ impl<T: Config> Pallet<T> {
 		}
 	}
 
-	fn referendum_status(
+	pub fn referendum_status(
 		ref_index: ReferendumIndex,
 	) -> Result<ReferendumStatus<T::BlockNumber, T::Hash, BalanceOf<T>>, DispatchError> {
 		let info = ReferendumInfoOf::<T>::get(ref_index).ok_or(Error::<T>::ReferendumInvalid)?;
