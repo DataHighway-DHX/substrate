@@ -23,4 +23,4 @@ tokio = { version = "1.15", features = ["parking_lot"] }
 http = { package = "jsonrpc-http-server", version = "18.0.0" }
 ipc = { package = "jsonrpc-ipc-server", version = "18.0.0" }
 # ws = { package = "jsonrpc-ws-server", version = "18.0.0" }
-ws = { package = "jsonrpc-ws-server", git = 'https://github.com/DataHighway-DHX/jsonrpc', rev = '7ba10b25c9e56c8aa945e2df7fb8a24460fd11ff' }
+ws = { package = "jsonrpc-ws-server", git = 'https://github.com/DataHighway-DHX/jsonrpc', rev = 'f9a5f0c9b273f748551914e94cccdd6d2399a4ac' }
